@@ -13,8 +13,10 @@ import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import com.codetutr.validator.Phone;
+import com.codetutr.validator.Right;
 import com.codetutr.validator.Year;
 
+@Right
 public class Subscriber {
 
 	@Size(min=2, max=30) 

@@ -14,7 +14,6 @@ import javax.validation.Payload;
 @Target( { ElementType.METHOD, ElementType.FIELD })
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Phone {
-
 	
 	String message() default "{Phone}";
 	

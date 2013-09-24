@@ -20,7 +20,7 @@ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns
 
   <servlet-mapping>
     <servlet-name>sample</servlet-name>
-    <url-pattern>/*.htm</url-pattern>
+    <url-pattern>*.htm</url-pattern>
   </servlet-mapping>
 
 </web-app>
